@@ -1,0 +1,10 @@
+# The values given here are actually the default values. But they are explicitly
+# set here as an example of setting the Kafka properties.
+spring:
+  kafka:
+    bootstrap-servers: 13.125.58.227:9092
+    template:
+      default-topic: tacocloudorders
+    producer:
+      keySerializer: org.springframework.kafka.support.serializer.JsonSerializer
+      valueSerializer: org.springframework.kafka.support.serializer.JsonSerializer

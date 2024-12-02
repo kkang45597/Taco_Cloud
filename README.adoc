@@ -1,0 +1,25 @@
+# **Spring in action sample code**
+
+
+Once the project is built, you can run the executable JAR file from the `tacos` project:
+
+[source,sh]
+----
+% java -jar tacos/target/taco-cloud-0.0.6-SNAPSHOT.jar
+----
+
+Once the application has started, open your web browser and navigate to http://localhost:8080 to see the Taco Cloud home page.
+
+=== What's missing...
+
+ - Not Support Refresh Token 
+
+# **Sample Code Upgrade Details**
+
+### **Spring Boot 3 Version Upgrade**
+- This project has been upgraded to Spring Boot version 3.
+- Leveraging the latest features and improvements of Spring Boot 3, it now offers enhanced performance and stability.
+
+### **TacoCloud UI Upgrade**
+- The `tacocloud-ui` has been updated to the latest version.
+- New UI components and styles have been added to enhance the user experience.
